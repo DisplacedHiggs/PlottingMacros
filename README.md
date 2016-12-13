@@ -2,9 +2,9 @@
 These macros make the plots for comparing simulation to data in regions of interest.
 
 ##Running these macros:
-+For 2L ONZ: `root -q -b -l makeControlPlotsZ.C`
-+For 1 electron: `root -q -b -l 'makeControlPlotsWFlavor.C("assemblerW_el.root","electron")'`
-+For 1 muon: `root -q -b -l 'makeControlPlotsWFlavor.C("assemblerW_mu.root","muon")'`
++ For 2L ONZ: `root -q -b -l makeControlPlotsZ.C`
++ For 1 electron: `root -q -b -l 'makeControlPlotsWFlavor.C("assemblerW_el.root","electron")'`
++ For 1 muon: `root -q -b -l 'makeControlPlotsWFlavor.C("assemblerW_mu.root","muon")'`
 
 ##What you have to worry about:
 The input files need to be edited in helperAnalysisPresenter.C (the current paths are on hexcms, but for xrootd will work fine).
